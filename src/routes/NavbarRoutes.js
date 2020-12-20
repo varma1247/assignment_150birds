@@ -5,6 +5,11 @@ import styled from "styled-components";
 const H4 = styled.h4`
   font-weight: bold;
 `;
+const Img = styled.img`
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+`;
 const ContentWrapper = styled.div`
   background-color: #ffc83f;
   flex-grow: 1;
@@ -18,7 +23,7 @@ const NavbarRoutes = () => {
         exact
         render={(props) => (
           <>
-            <img src={loadingImage} alt="Loading"></img>
+            <Img src={loadingImage} alt="Loading"></Img>
             <H4>Go To Settings!!!</H4>
           </>
         )}
@@ -28,7 +33,7 @@ const NavbarRoutes = () => {
         exact
         render={(props) => (
           <>
-            <img src={loadingImage} alt="Loading"></img>
+            <Img src={loadingImage} alt="Loading"></Img>
             <H4>Go To Settings!!!</H4>
           </>
         )}
@@ -38,7 +43,7 @@ const NavbarRoutes = () => {
         exact
         render={(props) => (
           <>
-            <img src={loadingImage} alt="Loading"></img>
+            <Img src={loadingImage} alt="Loading"></Img>
             <H4>Go To Settings!!!</H4>
           </>
         )}
@@ -48,7 +53,7 @@ const NavbarRoutes = () => {
         exact
         render={(props) => (
           <>
-            <img src={loadingImage} alt="Loading"></img>
+            <Img src={loadingImage} alt="Loading"></Img>
             <H4>Go To Settings!!!</H4>
           </>
         )}
@@ -58,7 +63,7 @@ const NavbarRoutes = () => {
         exact
         render={(props) => (
           <>
-            <img src={loadingImage} alt="Loading"></img>
+            <Img src={loadingImage} alt="Loading"></Img>
             <H4>Go To Settings!!!</H4>
           </>
         )}

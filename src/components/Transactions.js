@@ -9,7 +9,7 @@ const TransactionWrapper = styled.div`
   padding: 20px;
   padding-right: 0px;
   overflow-y: auto;
-  height: ${(props) => (props.expanded ? "300px" : "600px")};
+  height: ${(props) => (props.expanded ? "250px" : "500px")};
 `;
 const InvoiveWrapper = styled.div`
   background-color: white;
@@ -18,6 +18,7 @@ const InvoiveWrapper = styled.div`
   padding-right: 0px;
   height: 300px;
   margin-top: 50px;
+  overflow-y: auto;
 `;
 const ExpandButton = styled.button`
   border: 1px solid lightgrey;
@@ -94,7 +95,7 @@ const Transactions = () => {
         </Table>
       </TransactionWrapper>
       {invoiceData.length > 0 ? (
-        <InvoiveWrapper>
+        <InvoiveWrapper className="col-sm-8">
           <h3>Invoice</h3>
           <Table>
             <thead>
